@@ -184,6 +184,7 @@
   display: flex;
   justify-content: space-around;
   padding: 55px;
+  width: 101%;
 }
 
 .text-set-local {
@@ -352,6 +353,10 @@
   .drive-text h3 {
     font-size: 1.5rem;
     font-weight: 400;
+  }
+
+  .route {
+    width: 104%;
   }
 
   .route-box {
