@@ -1,64 +1,58 @@
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-*:before,
-*:after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 .menu-large {
-    margin: 15px;
+  margin: 15px;
 }
 
 .menu-small {
-    margin: 5px;
+  margin: 5px;
 }
 
 .set-menu {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .navbar-light .navbar-nav .nav-item a {
-    color: black;
+  color: black;
 }
 
 .screen-one {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .image-drive {
-    background-image: url('../assets/images/taxi.jpg');
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 600px;
-    display: flex;
-    justify-content: flex-end;
+  background-image: url('../assets/images/taxi.jpg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .register {
-    align-self: center;
+  align-self: center;
 }
 
 .set-register {
-    background-color: #F6BD00;
-    color: #FFF;
-    display: flex;
-    flex-flow: column;
-    padding: 35px 0 50px 35px;
-    width: 500px;
+  background-color: #F6BD00;
+  color: #FFF;
+  display: flex;
+  flex-flow: column;
+  padding: 35px 0 50px 35px;
+  width: 500px;
 }
 
 .set-register h3 {
-    font-size: 2rem;
-    font-weight: 600;
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 .set-register p.set-padding {
@@ -66,11 +60,11 @@
 }
 
 .set-register span {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 .set-register .btn-width {
-    width: fit-content;
+  width: fit-content;
 }
 
 .lab-section-1-box {
@@ -85,7 +79,8 @@
   align-self: center;
 }
 
-.lab-line-1, .lab-line-2 {
+.lab-line-1,
+.lab-line-2 {
   width: 130px;
   border: 0.5px solid white;
 }
@@ -95,111 +90,83 @@
   width: 45px;
 }
 
-
-.line {
-    width: 40px;
-    margin: 5px auto;
-    position: relative;
-}
-
-.light::before {
-    content: "";
-    width: 100px;
-    height: 2px;
-    background-color: #FFF;
-    position: absolute;
-    top: 40%;
-    left: 50px;
-}
-
-.line p {
-    font-size: 15px;
-    width: 45px;
-}
-
-.light::after {
-    content: "";
-    width: 100px;
-    height: 2px;
-    background-color: #FFF;
-    position: absolute;
-    top: 40%;
-    right: 50px;
-}
-
 .screen-two {
-    background-color: #F6BD00;
-    padding: 40px 40px 40px 0;
+  background-color: #F6BD00;
+  padding: 40px 40px 40px 0;
 }
 
 .app-set {
-    border: 1px solid white;
-    border-left: none;
-    width: 85%;
-    display: flex;
+  border: 1px solid white;
+  border-left: none;
+  width: 85%;
+  display: flex;
 }
 
 .app-text {
-    color: white;
-    display: flex;
-    flex-direction: column;
-    width: 30%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
 }
 
 .app-text h3 {
-    font-size: 1.85rem;
-    font-weight: 600;
-    padding-top: 45px;
+  font-size: 1.85rem;
+  font-weight: 600;
+  padding-top: 45px;
 }
 
 .app-text p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .image-cel {
-    padding: 5% 15% 5% 10%;
+  padding: 5% 15% 5% 10%;
+}
+
+.image-cel img {
+  width: 300px;
 }
 
 .driver {
-    background-image: url("../assets/images/conduce.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 450px;
-    display: flex;
-    justify-content: flex-end;
+  background-image: url("../assets/images/conduce.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .drive-text {
-    color: #FFF;
-    background-color: rgba(0, 0, 0, 0.2);
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    width: 35%;
-    padding: 0 20px 0 40px;
+  color: #FFF;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  width: 35%;
+  padding: 0 20px 0 40px;
 }
 
 .drive-text h3 {
-    font-size: 1.85rem;
-    font-weight: 700;
+  font-size: 1.85rem;
+  font-weight: 700;
 }
 
 .drive-text p {
-    font-size: large;
+  font-size: large;
 }
 
 .drive .btn-width-drive {
-    color: white;
-    width: fit-content;
+  color: white;
+  width: fit-content;
 }
 
 .route-box {
-    width: 35%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .route-box h3 {
@@ -212,11 +179,11 @@
 }
 
 .route {
-    background-color: #F6BD00;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    padding: 55px;
+  background-color: #F6BD00;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 55px;
 }
 
 .text-set-local {
@@ -224,23 +191,34 @@
 }
 
 .container-input {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .navigation,
 .local {
-    display: flex;
-    flex-direction: row;
-    padding: 15px 0px;
+  display: flex;
+  flex-direction: row;
+  padding: 15px 0px;
+}
+
+.text-set input[type="text"] {
+  background-color: #F6BD00;
+  border-color: white;
+  color: white;
+  border-radius: 8px;
+}
+
+.text-set input[type="text"]::placeholder {
+  color: white;
 }
 
 .icon-set {
-    padding-right: 25px;
+  padding-right: 25px;
 }
 
 .icon-set-local {
-    padding-right: 20px;
+  padding-right: 20px;
 }
 
 .btn-set {
@@ -249,11 +227,17 @@
 }
 
 .map {
-    border: 1px solid white;
-    padding: 15px;
+  border: 1px solid white;
+  padding: 15px;
 }
 
-.lab-footer-line-1, .lab-footer-line-2 {
+.map-google {
+  width: 600px;
+  height: 450px;
+}
+
+.lab-footer-line-1,
+.lab-footer-line-2 {
   border: 1px solid white;
   width: 83%;
 }
@@ -262,14 +246,16 @@
   margin-bottom: 15px;
 }
 
-.footer-link, .social-link {
+.footer-link,
+.social-link {
   text-decoration: none;
   font-size: 15px;
   color: white;
   margin: 0px 5px;
 }
 
-.footer-link:hover, .social-link:hover {
+.footer-link:hover,
+.social-link:hover {
   text-decoration: none;
   color: white;
   opacity: 0.8;
@@ -281,4 +267,115 @@
 
 .store-apple {
   margin-bottom: 20px;
+}
+
+.show-mobile {
+  display: none;
+}
+
+.download-apple,
+.download-gplay {
+  width: 80%;
+}
+
+.mobile-center {
+  display: flex;
+}
+
+.set-icon-store {
+  align-self: center;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 576px) {
+
+  .set-register {
+    width: 100%;
+    padding-right: 2%;
+  }
+
+  .set-padding {
+    font-size: 1.6em;
+  }
+
+  .set-register h3,
+  .visible-desktop,
+  .mobile,
+  #show-desktop {
+    display: none;
+  }
+
+  .show-mobile {
+    display: block;
+  }
+
+  .screen-two {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .color-text {
+    color: white;
+    align-self: center;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .txt {
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+
+  .app-set {
+    border: 1px solid white;
+    flex-direction: column;
+    margin-left: 15%;
+  }
+
+  .app-text {
+    display: none;
+  }
+
+  .image-cel img {
+    width: 100%;
+  }
+
+  .drive-text {
+    width: 100%;
+    padding: 0 20px 0 40px;
+  }
+
+  .drive-text h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+
+  .route-box {
+    width: 100%;
+    padding: 5%;
+  }
+
+  .map-google {
+    width: 100%;
+    height: 100%;
+  }
+
+  .mobile-top {
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    width: 100%;
+    margin: 0 10% 0 10%;
+  }
+
+  .mobile-center {
+    display: flex;
+  }
+  
+  .set-icon-store {
+    align-self: center;
+  }
 }
